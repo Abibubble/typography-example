@@ -1,0 +1,192 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+p {
+  font-family: Poppins;
+  padding: 0;
+  margin: 0;
+}
+
+.old .megaphone {
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 700;
+}
+
+.new .megaphone {
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 700;
+}
+
+.old .shout {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 700;
+}
+
+.new .shout {
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 700;
+}
+
+.old .louder {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+}
+
+.new .louder {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.old .loud {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.new .loud {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+.old .loud-bold {
+  font-size: 20px;
+  line-height: 24px;
+  font-weighT: 700;
+}
+
+.new .loud-bold {
+  font-size: 20px;
+  line-height: 30px;
+  font-weighT: 700;
+}
+
+.old .speak-up {
+  /* Compliant already */
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.new .speak-up {
+  /* Compliant already */
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.old .speak {
+  /* Compliant already */
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.new .speak {
+  /* Compliant already */
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.old .murmur {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+.new .murmur {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.old .murmur-bold {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.new .murmur-bold {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.old .whisper-loud {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.new .whisper-loud {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.old .whisper {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+.new .whisper {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+@media screen and (min-width: 768px) {
+  .old .megaphone {
+    font-size: 82px;
+    line-height: 88px;
+    letter-spacing: 0.02em;
+  }
+
+  .new .megaphone {
+    font-size: 82px;
+    line-height: 123px;
+    letter-spacing: 13px;
+  }
+
+  .old .shout {
+    font-size: 54px;
+    line-height: 64px;
+  }
+
+  .old .louder {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  .old .loud {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .old .loud-bold {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
