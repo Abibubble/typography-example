@@ -1,6 +1,8 @@
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  align-items: center;
 }
 
 h1 {
@@ -13,144 +15,144 @@ p {
   margin: 0;
 }
 
-.old .megaphone {
+.old-megaphone {
   font-size: 40px;
   line-height: 48px;
   font-weight: 700;
 }
 
-.new .megaphone {
+.new-megaphone {
   font-size: 40px;
   line-height: 60px;
   font-weight: 700;
 }
 
-.old .shout {
+.old-shout {
   font-size: 32px;
   line-height: 40px;
   font-weight: 700;
 }
 
-.new .shout {
+.new-shout {
   font-size: 32px;
   line-height: 48px;
   font-weight: 700;
 }
 
-.old .louder {
+.old-louder {
   font-size: 24px;
   line-height: 32px;
   font-weight: 700;
 }
 
-.new .louder {
+.new-louder {
   font-size: 24px;
   line-height: 36px;
   font-weight: 700;
 }
 
-.old .loud {
+.old-loud {
   font-size: 20px;
   line-height: 24px;
   font-weight: 500;
 }
 
-.new .loud {
+.new-loud {
   font-size: 20px;
   line-height: 30px;
   font-weight: 500;
 }
 
-.old .loud-bold {
+.old-loud-bold {
   font-size: 20px;
   line-height: 24px;
   font-weighT: 700;
 }
 
-.new .loud-bold {
+.new-loud-bold {
   font-size: 20px;
   line-height: 30px;
   font-weighT: 700;
 }
 
-.old .speak-up {
+.old-speak-up {
   /* Compliant already */
   font-size: 16px;
   line-height: 24px;
   font-weight: 700;
 }
 
-.new .speak-up {
+.new-speak-up {
   /* Compliant already */
   font-size: 16px;
   line-height: 24px;
   font-weight: 700;
 }
 
-.old .speak {
+.old-speak {
   /* Compliant already */
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
 }
 
-.new .speak {
+.new-speak {
   /* Compliant already */
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
 }
 
-.old .murmur {
+.old-murmur {
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
   letter-spacing: 0.02em;
 }
 
-.new .murmur {
+.new-murmur {
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
   letter-spacing: 2px;
 }
 
-.old .murmur-bold {
+.old-murmur-bold {
   font-size: 14px;
   line-height: 21px;
   font-weight: 700;
   letter-spacing: 0.02em;
 }
 
-.new .murmur-bold {
+.new-murmur-bold {
   font-size: 14px;
   line-height: 21px;
   font-weight: 700;
   letter-spacing: 2px;
 }
 
-.old .whisper-loud {
+.old-whisper-loud {
   font-size: 12px;
   line-height: 18px;
   font-weight: 700;
   letter-spacing: 0.02em;
 }
 
-.new .whisper-loud {
+.new-whisper-loud {
   font-size: 12px;
   line-height: 18px;
   font-weight: 700;
   letter-spacing: 1.5px;
 }
 
-.old .whisper {
+.old-whisper {
   font-size: 12px;
   line-height: 18px;
   font-weight: 400;
   letter-spacing: 0.02em;
 }
 
-.new .whisper {
+.new-whisper {
   font-size: 12px;
   line-height: 18px;
   font-weight: 400;
@@ -158,54 +160,54 @@ p {
 }
 
 @media screen and (min-width: 768px) {
-  .old .megaphone {
+  .old-megaphone {
     font-size: 82px;
     line-height: 88px;
     letter-spacing: 0.02em;
   }
 
-  .new .megaphone {
+  .new-megaphone {
     font-size: 82px;
     line-height: 123px;
     letter-spacing: 13px;
   }
 
-  .old .shout {
+  .old-shout {
     font-size: 54px;
     line-height: 64px;
   }
 
-  .new .shout {
+  .new-shout {
     font-size: 54px;
     line-height: 81px;
   }
 
-  .old .louder {
+  .old-louder {
     font-size: 36px;
     line-height: 48px;
   }
 
-  .new .louder {
+  .new-louder {
     font-size: 36px;
     line-height: 54px;
   }
 
-  .old .loud {
+  .old-loud {
     font-size: 24px;
     line-height: 32px;
   }
 
-  .new .loud {
+  .new-loud {
     font-size: 24px;
     line-height: 36px;
   }
 
-  .old .loud-bold {
+  .old-loud-bold {
     font-size: 24px;
     line-height: 32px;
   }
 
-  .new .loud-bold {
+  .new-loud-bold {
     font-size: 24px;
     line-height: 36px;
   }
