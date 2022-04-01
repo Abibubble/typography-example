@@ -175,9 +175,19 @@ p {
     line-height: 64px;
   }
 
+  .new .shout {
+    font-size: 54px;
+    line-height: 81px;
+  }
+
   .old .louder {
     font-size: 36px;
     line-height: 48px;
+  }
+
+  .new .louder {
+    font-size: 36px;
+    line-height: 54px;
   }
 
   .old .loud {
@@ -185,8 +195,18 @@ p {
     line-height: 32px;
   }
 
+  .new .loud {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
   .old .loud-bold {
     font-size: 24px;
     line-height: 32px;
+  }
+
+  .new .loud-bold {
+    font-size: 24px;
+    line-height: 36px;
   }
 }
